@@ -29,7 +29,11 @@ const friends = [
   {
     id: 2,
     name: "Harendra",
-    skills: [],
+    skills: [
+      "btech ka shikari",
+      "ghi milte hi choor deta hai ..",
+      "bass service krna seekh paya volleyball me"
+    ],
   },
   {
     id: 3,

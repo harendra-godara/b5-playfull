@@ -1,9 +1,6 @@
-import { useState } from "react";
-import "./App.css";
-import Skills from "./components/Skills";
-import Navbar from "./components/Navbar";
-import Funcard from "./components/Funcard";
-
+import React from 'react'
+import Funcard from '../Funcard'
+import Skills from '../Skills'
 
 const friends = [
   {
@@ -101,15 +98,13 @@ const friends = [
 ];
 
 
-function App() {
- 
+function Home() {
   return (
     <>
-      <Navbar />
-      <Funcard />
-      <Skills friends={friends} />
+    <Funcard />
+    <Skills friends={friends}/>
     </>
-  );
+  )
 }
 
-export default App;
+export default Home

@@ -73,12 +73,12 @@ const Navbar = ()=> {
                                 </li>
                                 <li>
                                     <NavLink
-                                    to = '/github'
+                                    to = '/projects'
                                         className={({isActive}) =>
                                             `block py-2 pr-4 pl-3 duration-200 border-b ${isActive ? "text-blue-700" : "text-black"} border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
                                         }
                                     >
-                                        Github
+                                        projects
                                     </NavLink>
                                 </li>
                             </ul>

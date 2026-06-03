@@ -1,5 +1,5 @@
 import { useState } from "react";
-import ProjectCard from "../ProjectCard";
+import ProjectCard from "./ProjectCard";
 
 function Projects({ projects }) {
   const [selectedUser, setSelectedUser] = useState("");
